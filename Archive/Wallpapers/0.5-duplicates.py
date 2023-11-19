@@ -41,7 +41,6 @@ def remove_duplicates(directory):
 
 if __name__ == "__main__":
     directories = [
-        "C:\\Users\\echo2\\OneDrive\\Pictures\\Wallpapers_Portrait",
         "C:\\Users\\echo2\\OneDrive\\Pictures\\Wallpapers"
     ]
     

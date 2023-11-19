@@ -49,5 +49,5 @@ def rename_files(directory_path):
         counter += 1
 
 if __name__ == "__main__":
-    directory_path = "C:\\Users\\echo2\\OneDrive\\Pictures\\Wallpapers_Portrait"  # Modified directory path
+    directory_path = "C:\\Users\\echo2\\OneDrive\\Pictures\\Wallpapers\\Portorait"  # Modified directory path
     rename_files(directory_path)

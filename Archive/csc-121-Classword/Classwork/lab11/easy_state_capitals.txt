@@ -1,0 +1,10 @@
+Maryland,Annapolis
+New Mexico,Santa Fe
+Louisiana,Baton Rouge
+Connecticut,Hartford
+Illinois,Springfield
+Oregon,Salem
+Rhode Island,Providence
+New Jersey,Trenton
+Colorado,Denver
+Alaska,Juneau

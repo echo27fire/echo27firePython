@@ -1,0 +1,193 @@
+"""
+Name:  your name
+Date:  the date
+Program:  lab02b - Practicing Variables and Assignments
+
+Instructions:  Make a copy of this .py file and name it lab02b.py.  For each question follow
+the instructions to write a line of code where it says "PUT YOUR CODE HERE", and run the 
+program to see if you get the Expected Output, and debug if you do not.
+
+Some questions include partial code, and ask you to modify it.
+
+DO NOT change any other part of this file.
+"""
+
+print("Question 1")
+# Question 1:  Write a line of code to display the string:  The rain in Spain.  
+# Use double quotes in your print statement
+# (Book Reference:  Section 2.3)
+print("The rain in Spain ") 
+# Expected Output:  The rain in Spain.
+
+
+
+print("Question 2")
+# Question 2:  Write a line of code to dispaly the string:  Mr. Potato Head was invented in 1949.
+# Use single quotes in your print statement
+# (Book Reference:  Section 2.3)
+print("Mr. Potato Head was invented in 1949.")
+# Expected Output:  Mr. Potato Head was invented in 1949.
+
+print("Question 3")
+# Question 3:  Write a line of code that displays the following text:  Python's the best
+# Notice the apostrophe.
+# (Book Reference:  Section 2.3.  You could also look at Section 2.9 and use an escape character.)
+print("Python's the best")
+# Expected Output:  Python's the best
+
+print("Question 4")
+# Question 4:  Write a line of code that displays the following text:  The cat said "meow."
+# Notice the quotes.
+# (Book Reference:  Section 2.3.  You could also look at Section 2.9 and use an escape character.)
+print('The cat said "meow."')
+# Expected Output:  The cat said "meow."
+
+print("Question 5")
+# Question 5: Ask the user for their favorite color and store it in a variable named color.
+# (Book Reference:  Section 2.6)
+color = input('What is your favorite colour, user?')
+# Test: Uncomment the following line to test
+print(f"Your favorite color is {color}!")
+# Expected Output: Your favorite color is [user's favorite color]!
+
+print("Question 6")
+#Question 6: Write a line of code to assign the result of adding 5 and 7 to a variable named sum_result.
+# (Book Reference:  Section 2.7)
+sum_result = ( 5 + 7 )
+# Test: Uncomment the following line to test
+print(f"The sum of 5 and 7 is {sum_result}")
+# Expected Output: The sum of 5 and 7 is 12
+
+print("Question 7")
+# Question 7: Calculate the product of 3 and 4 and store it in a variable named product.
+# (Book Reference:  Section 2.7)
+product = ( 3 * 4)
+# Test: Uncomment the following line to test
+print(f"The product of 3 and 4 is {product}")
+# Expected Output: The product of 3 and 4 is 12
+
+print("Question 8")
+# Question 8: Calculate the quotient of 20 divided by 6 and store it in a variable named quotient.
+# (Book Reference:  Section 2.7)
+quotient = ( 20 / 6 )
+# Test: Uncomment the following line to test
+print(f"The quotient of 20 divided by 6 is {quotient}")
+# Expected Output: The quotient of 20 divided by 6 is 3
+
+print("Question 9")
+# Question 9: Calculate the square of 9 and store it in a variable named square_result.
+# (Book Reference:  Section 2.7)  Use the exponent operator.
+square_result = ( 9 ** 2 )
+# Test: Uncomment the following line to test
+print(f"The square of 9 is {square_result}")
+# Expected Output: The square of 9 is 81
+
+print("Question 10")
+#Question 10: Concatenate the strings "Hello" and "World" and store the result in a variable named greeting. 
+# (Hint: Section 2.8 :  String Concatenation in your textook)
+greeting = 'Hello, ' + 'worldR'
+# Test: Uncomment the following line to test
+print(f"{greeting}, welcome!")
+# Expected Output: Hello, World, welcome!
+
+print("Question 11")
+# Question 11: Ask the user for their age and store it in a variable named age.  Have your friend enter 5 as their age when prompted
+# Convert the variable to an integer using the int() type conversion function.
+age = int(input('How old are you user?'))
+# Test: Uncomment the following line to test
+print(f"In two years, you will be {age + 2} years old.")
+# Expected Output: In two years, you will be 7 years old.
+# Hint:  if you see 57 instead of 7, you forgot to do the type conversion and got string concatenatation instead
+
+print("Question 12")
+# Question 12:  Write a print statement that says Hello! followed by two spaces and supresses the end of line character.
+# (Hint: Section 2.9 :  Suppressing the print function's ending newline)
+print('Hello!', end= ' ')
+# Test: Uncomment the following line to test
+print(f"This should be on the same line as as your Hello!")
+# Expected Output:  Hello!  This should be on the same line as your Hello!
+
+print("Question 13")
+# Question 13: Calculate the remainder when 15 is divided by 4 and store it in a variable named remainder. Use the modulus (also called the remainder) operator.
+# (Book Reference:  Section 2.7)
+remainder = ( 15 % 4)
+# Test: Uncomment the following line to test
+print(f"The remainder of 15 divided by 4 is {remainder}")
+#Expected Output: The remainder of 15 divided by 4 is 3
+
+print("Question 14")
+# Question 14: Combine the strings "Good" and "morning" to create the word "Good morning" and store it in a variable named greeting.
+# (Book Reference:  Section 2.8:  String Concatenation)
+greeting = 'Good ' + 'morning'
+# Test: Uncomment the following line to test
+print(f"{greeting}!")
+# Expected Output: Good morning!
+
+print("Question 15")
+division_result = 25 / 3    # DO NOT CHANGE THIS LINE
+# Question 15:  The value of division_result from the above assignment statement 
+# is about 8.333333333333334   
+# Modify and uncomment the following print statement using an f-string with formatting to display division_result with 2 decimal places. 
+# (Book Reference:  Section 2.10:  Rounding Floating Point Numbers)
+# MODIFY THE NEXT LINE OF CODE AND UNCOMMENT
+print(f"division_result is {division_result:.2f}")
+# Expected Output:  division_result is 8.33
+
+print("Question 16")
+bignumber = 1234567890   # DO NOT CHANGE THIS LINE OF CODE
+# Question 16:  The variable bignumber is assigned to be a very large integer, and it would 
+# hard for a person to read it accurately.  Use the formatting with comma seperators to 
+# display this number in a human friendly way.
+# (Book Reference;  2.10:  Inserting Comma Seperators)
+# MODIFY THE NEXT LINE OF CODE AND UNCOMMENT
+print(f"bignumber is {bignumber:,}")
+# Expected Output:  bignumber is 1,234,567,890
+
+print("Question 17")
+number = 223 # DO NOT CHANGE THIS LINE OF CODE
+# Question 17:  Modify and uncomment the following print statement to display the value aligned 
+# to the right in 10 spaces. Use f-string and formatting to align the value
+# (Book Reference:  2.10 Aligning Values)
+# MODIFY THE NEXT LINE OF CODE AND UNCOMMENT
+print(f"number is {number:10}")
+# Expected Output:  number is        223
+
+print("Question 18")
+# Question 18:  Write one print statement that outputs two lines of output where the word Martians is on the first line, and Welcome to Earth is on the second line.
+# Hint:  You can do this with triple quoted strings, or with an escape/newline inside the string you print
+# (Book Reference:  Section 2.9 Escape Characters OR Section 2.3 shows triple quoted string)
+print('Martians \nWelcome to Earth')
+# Expected Output is:
+# Martians
+# Welcome to Earth
+
+print("Question 19")
+my_num = 2.89472 # DO NOT CHANGE THIS LINE OF CODE
+# Question 19:  The variable my_num is assigned to be a decimal (also called floating point)
+# number.  Use the type conversion int() to make it an integer number.
+# Test: Uncomment the following line to test
+print(f"my_num is {int(my_num)}")
+# Expected Output: my_num is 2
+# Notice:  It didn't round, it just chopped off the part after the decimal place
+
+print("Question 20")
+# Question 20:  Write one line of code to assign the value 4 to variable a, the value 5 to 
+# the variable b, and the value 7 to the variable c
+# (Book Reference:  Section 2.5 Multiple Assignment
+a, b, c = 4, 5, 7
+# Test: Uncomment the following line to test
+print(f"a is {a}, b is {b} and c is {c}")
+# Expected Output: a is 4, b is 5, and c is 7
+
+# Extra Credit (optional)
+# Write your own Question similar to those above that asks a question about python that 
+# is not covered in the above questions. 
+# Below your question, write your solution.
+
+
+print("Question 21: Extra Credit")
+# create code that will center each name below and on a seperate line. 
+n1, n2, n3, n4 = 'Dave', 'Tom', 'Bill', 'Sarah' #name values, do not change
+# Code Answer
+print(f'{"---   Python presents  ---":^25}')
+print(f'---{n1:^20}---\n---{n2:^20}---\n---{n3:^20}---\n---{n4:^20}---')

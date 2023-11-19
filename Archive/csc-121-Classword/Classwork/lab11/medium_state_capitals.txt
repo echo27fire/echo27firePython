@@ -1,0 +1,25 @@
+North Carolina,Raleigh
+North Dakota,Bismarck
+New Mexico,Santa Fe
+South Carolina,Columbia
+Delaware,Dover
+Florida,Tallahassee
+Montana,Helena
+Iowa,Des Moines
+Connecticut,Hartford
+Massachusetts,Boston
+Minnesota,Saint Paul
+Missouri,Jefferson City
+Mississippi,Jackson
+Wyoming,Cheyenne
+Idaho,Boise
+New Jersey,Trenton
+Indiana,Indianapolis
+Ohio,Columbus
+South Dakota,Pierre
+California,Sacramento
+Oklahoma,Oklahoma City
+Texas,Austin
+Hawaii,Honolulu
+Maine,Augusta
+Virginia,Richmond
